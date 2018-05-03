@@ -1,5 +1,6 @@
 TextField {
     border-width: 1;
-    border-color: black;
+    border-color: #999;
+    margin: 5rem;
+    border-radius: 3;
   }
-  

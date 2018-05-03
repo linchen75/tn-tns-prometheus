@@ -1,33 +1,51 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
   selector: "my-app",
   template: `
   <ScrollView orientation="horizontal" ios.pagingEnabled="true" left="0" top="0" width="100%" height="100%">
   <StackLayout>
-    <TextField hint="Account DID *"></TextField>
-    <TextField hint="Template *"></TextField>
-    <TextField hint="TSE Name *"></TextField>
-    <TextField hint="TalentNetwork URL *"></TextField>
-    <TextField hint="Default Language *"></TextField>
+    <TextView text="Steps 1: Key Information"></TextView>
+    <FlexboxLayout>  
+      <Label text="Account DID"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <FlexboxLayout class="fullWidth">
+      <TextField id="accountDid" class="textbox" [(ngModel)]="accountDid"></TextField> 
+      <Button text="Look up" class="btn btn-primary btn-active" (tap)="submit()"></Button>
+    </FlexboxLayout>
 
-    <TextField hint="Account DID *"></TextField>
-    <TextField hint="Template *"></TextField>
-    <TextField hint="TSE Name *"></TextField>
-    <TextField hint="TalentNetwork URL *"></TextField>
-    <TextField hint="Default Language *"></TextField>
+    <FlexboxLayout>  
+      <Label text="Template"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField id="template" text="{{ template }}"></TextField>
+    
 
-    <TextField hint="Account DID *"></TextField>
-    <TextField hint="Template *"></TextField>
-    <TextField hint="TSE Name *"></TextField>
-    <TextField hint="TalentNetwork URL *"></TextField>
-    <TextField hint="Default Language *"></TextField>
+    <FlexboxLayout>  
+      <Label text="TSE Name"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField id="tseName" text="{{ tseName }}"></TextField>
 
-    <TextField hint="Account DID *"></TextField>
-    <TextField hint="Template *"></TextField>
-    <TextField hint="TSE Name *"></TextField>
-    <TextField hint="TalentNetwork URL *"></TextField>
-    <TextField hint="Default Language *"></TextField>
+    <FlexboxLayout>  
+      <Label text="TalentNetwork URL"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField id="talentNetworkUrl" text="{{ talentNetworkUrl }}"></TextField>
+
+    <FlexboxLayout>  
+      <Label text="Default Language"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField></TextField>
+
+    <TextView text="Step 2: Configuration Options"></TextView>
+    <TextView text="Emails:"></TextView>
+    <FlexboxLayout>  
+      <Label text="From Name"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField id="fromName" text="{{ fromName }}"></TextField>
+
+    <FlexboxLayout>  
+      <Label text="From Email"></Label><Label class="must" text="*"></Label>
+    </FlexboxLayout>
+    <TextField id="fromEmail" text="{{ fromEmail }}"></TextField>
 
   </StackLayout>
   </ScrollView>
@@ -37,4 +55,50 @@ export class AppComponent {
   // Your TypeScript logic goes here
   colors = ['red', 'yellow', 'blue'];
   selectedColorIndex = 0;
+  @ViewChild('upload') upload: ElementRef;
+  public accountDid = '';
+  public template = '';
+  public tseName = '';
+  public talentNetworkUrl = '';
+  public fromName = '';
+  public fromEmail = '';
+  submit() {
+    if (this.accountDid === '') {
+      return false;
+    }
+    console.log(this.accountDid);
+    this.template = "Academy – Matrix";
+    this.tseName = 'Beijing Zzxl Technology, Co. LTD - 1k Plan_TN8911'
+    this.talentNetworkUrl = 'http://www.jobs.net/jobs/beijing-zzxl-technology-co-ltd-1k-plan-8911'
+    this.fromName = 'Beijing Zzxl Technology, Co. LTD - 1k Plan'
+    this.fromEmail = 'BeijingZzxlTechnologyCoLTD1kPlan_TN8911@jobs.net'
+  }
+
+  public readFile(input) {
+        if (input.files && input.files[0]) {
+          const tempFile = input.files[0];
+    //       if (!this.uploadFileValidation(tempFile)) {
+    //         return false;
+    //       }
+          let reader: any;
+          reader = new FileReader();
+          reader.onload = (e) => {
+            const img = new Image;
+            img.onload = () => {
+              if (img.width < 400 && img.height < 400) {
+                alert('The image resolution is too low.');
+                return false;
+              }
+    //           this.generateMediaItem(img, tempFile);
+            };
+            img.src = e.target.result;
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+    
+      public uploadFile(e) {
+        this.readFile(this.upload.nativeElement);
+        console.log("1111" + this.upload.nativeElement);
+      }
 }

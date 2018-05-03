@@ -1,19 +1,19 @@
 {
-  "_from": "nativescript-materialdropdownlist",
+  "_from": "nativescript-materialdropdownlist@^1.0.15",
   "_id": "nativescript-materialdropdownlist@1.0.15",
   "_inBundle": false,
   "_integrity": "sha1-ICr9DwHYzsG/jKFnOSzqbOVMuKk=",
   "_location": "/nativescript-materialdropdownlist",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "nativescript-materialdropdownlist",
+    "raw": "nativescript-materialdropdownlist@^1.0.15",
     "name": "nativescript-materialdropdownlist",
     "escapedName": "nativescript-materialdropdownlist",
-    "rawSpec": "",
+    "rawSpec": "^1.0.15",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.15"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-materialdropdownlist/-/nativescript-materialdropdownlist-1.0.15.tgz",
   "_shasum": "202afd0f01d8cec1bf8ca167392cea6ce54cb8a9",
-  "_spec": "nativescript-materialdropdownlist",
+  "_spec": "nativescript-materialdropdownlist@^1.0.15",
   "_where": "/Users/lichen/projects/HelloWorld",
   "author": {
     "name": "Bradley Gore",

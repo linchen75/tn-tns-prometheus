@@ -9,6 +9,7 @@
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,
     "nativescript-angular": true,
+    "nativescript-background-http": true,
     "nativescript-materialdropdownlist": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,

@@ -194,15 +194,15 @@
 		</data>
 		<key>app/app.component.js</key>
 		<data>
-		JX/zqZLe3Ky5mWY7Toa9oQNrFgQ=
+		aOciJYxJWnGHvuveZrw3zftTYGA=
 		</data>
 		<key>app/app.component.ts</key>
 		<data>
-		KvfMRRLRSALBsNl1U+UcQ0xGbKI=
+		9TuTeLv05ccdtCGBCqivzXXXRlQ=
 		</data>
 		<key>app/app.css</key>
 		<data>
-		P985nGDkcLs1Fdb7glvTiv1+Jxc=
+		JZQqw13jqWp+PfXREcxLE7v1oXY=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>app/platform.css</key>
 		<data>
-		MJaLUBzXckp/hLtqF2AedVFH+nU=
+		SOJuKl8n9LPqTWCO0E5iIx3Q8tA=
 		</data>
 		<key>app/tns_modules/@angular/animations/README.md</key>
 		<data>
@@ -16584,6 +16584,30 @@
 		<data>
 		Awkmq1xjBYQ1kUjghJ7wqoU059s=
 		</data>
+		<key>app/tns_modules/nativescript-background-http/LICENSE</key>
+		<data>
+		M1udhJYAeSlG/70B82FxAPvW4Qc=
+		</data>
+		<key>app/tns_modules/nativescript-background-http/README.md</key>
+		<data>
+		Nx6r37H/AWTMHdPW1WfK/4b5tdw=
+		</data>
+		<key>app/tns_modules/nativescript-background-http/background-http.js</key>
+		<data>
+		jy6pWguQX+V2CZvmjqoirrF7Wxs=
+		</data>
+		<key>app/tns_modules/nativescript-background-http/index.d.ts</key>
+		<data>
+		6CPicMkoR2rkQMWLKduZo99oiQg=
+		</data>
+		<key>app/tns_modules/nativescript-background-http/package.json</key>
+		<data>
+		Sp0q6fIEl5l02rUyHlmgx2KlT/I=
+		</data>
+		<key>app/tns_modules/nativescript-background-http/typings/java!uploadservice-3.4.2.js</key>
+		<data>
+		GzkxRhnbRND7iT1L3icOD+/1Tkc=
+		</data>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
 		<data>
 		MUDkFX4XzEs6IawFqApmg1zoiQ4=
@@ -16642,7 +16666,7 @@
 		</data>
 		<key>app/tns_modules/nativescript-materialdropdownlist/package.json</key>
 		<data>
-		vPWGVqg5a/9fI+bzU/KHb0Qb/5M=
+		kNLTDi61i0rwxpisARmkT3EeHzw=
 		</data>
 		<key>app/tns_modules/nativescript-materialdropdownlist/tsconfig.json</key>
 		<data>
@@ -33807,33 +33831,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JX/zqZLe3Ky5mWY7Toa9oQNrFgQ=
+			aOciJYxJWnGHvuveZrw3zftTYGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QUMRdCDM/BFYGGWF+txF0k44lszTbqqmzr1wMUppz20=
+			X7KNYMxNZbRrx00daMMp/o/17fy0QAC+/cXwyrUQ8Ik=
 			</data>
 		</dict>
 		<key>app/app.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KvfMRRLRSALBsNl1U+UcQ0xGbKI=
+			9TuTeLv05ccdtCGBCqivzXXXRlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xWf0fgqePynHl5isYuZhQunrQb3Jd3Bi5E1ehH744Y0=
+			tfULpIizQUvQ0F4dGfy2gXz7XZpBVDR5BG87UliezRk=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P985nGDkcLs1Fdb7glvTiv1+Jxc=
+			JZQqw13jqWp+PfXREcxLE7v1oXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			IctLrjytac4K2Ca3qG5bLmDNeW03iqdkn9JeBIvRhE0=
+			32BpIb8tEhx/g8RLi5Nwvgf+1YFjeS/Y2XErbgLDHl0=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
@@ -33939,11 +33963,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MJaLUBzXckp/hLtqF2AedVFH+nU=
+			SOJuKl8n9LPqTWCO0E5iIx3Q8tA=
 			</data>
 			<key>hash2</key>
 			<data>
-			5NDs74cZGbsrJaq4P9dpSaO4Gc2T0IT3eVuzmA7Xvvc=
+			CmoTIA8oHMNqvNZTjbZnh+BK3coquiYs8xAqtRCT+48=
 			</data>
 		</dict>
 		<key>app/tns_modules/@angular/animations/README.md</key>
@@ -78881,6 +78905,72 @@
 			GY922iU+ej+r5pD12+PHXD1TPa9vyyNHKLhb6hacJ1w=
 			</data>
 		</dict>
+		<key>app/tns_modules/nativescript-background-http/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M1udhJYAeSlG/70B82FxAPvW4Qc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ivivTwa3e3A+5TzXUqjG3Tr7qV44jxlDwROmXuRZDF4=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-background-http/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Nx6r37H/AWTMHdPW1WfK/4b5tdw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qzMS4zVFikpZmHZw5YVmeawXJxS27rWP7nuKQRa6uYM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-background-http/background-http.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jy6pWguQX+V2CZvmjqoirrF7Wxs=
+			</data>
+			<key>hash2</key>
+			<data>
+			L8tGHRYhXuG2ykdvFnIwcMSJMWcBwcun0R3HqIrug9w=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-background-http/index.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6CPicMkoR2rkQMWLKduZo99oiQg=
+			</data>
+			<key>hash2</key>
+			<data>
+			3vyHN3Lk/5XL8hWxhlxxvT/RkdShjpe36b2AGgoZ+pY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-background-http/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sp0q6fIEl5l02rUyHlmgx2KlT/I=
+			</data>
+			<key>hash2</key>
+			<data>
+			xGk1sXrknQYfT0AwnTypj9UqizTS4mn4el7qWR3jwSw=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-background-http/typings/java!uploadservice-3.4.2.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GzkxRhnbRND7iT1L3icOD+/1Tkc=
+			</data>
+			<key>hash2</key>
+			<data>
+			usZHdTaJTpfzYVFbZSZD8eYq+ijmSh8QsB5CH0rv4Rs=
+			</data>
+		</dict>
 		<key>app/tns_modules/nativescript-intl/README.md</key>
 		<dict>
 			<key>hash</key>
@@ -79039,11 +79129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vPWGVqg5a/9fI+bzU/KHb0Qb/5M=
+			kNLTDi61i0rwxpisARmkT3EeHzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LFxyjlIMeATN2R9nlMTYK9aHMaKfKT3r4/6R1sum6q4=
+			Lfj8l3jRHRF4dkiXIj+PXM+Wg5/xESUPqNAxQWCZ6Sw=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-materialdropdownlist/tsconfig.json</key>

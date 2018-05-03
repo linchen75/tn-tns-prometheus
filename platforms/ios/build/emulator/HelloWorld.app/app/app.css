@@ -8,3 +8,22 @@ TextField {
     padding: 10;
     font-size: 13;
 }
+.fullWidth {
+    width: 100%;
+}
+.must {
+    color: red;
+}
+.textbox {
+    /* flex-basis: 2; */
+    width: 810px;
+    margin-right: 0;
+    padding: 0;
+    height: 100px !important;
+} 
+.btn {
+    /* flex-basis: 1; */
+    width: 250px;
+    margin-left: 0;
+    cursor: pointer;
+}
